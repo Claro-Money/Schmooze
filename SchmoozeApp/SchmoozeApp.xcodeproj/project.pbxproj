@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15181DB125E6E80E00F0C571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15181DB025E6E80E00F0C571 /* AppDelegate.swift */; };
+		15181DB325E6E80E00F0C571 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15181DB225E6E80E00F0C571 /* SceneDelegate.swift */; };
+		15181DB525E6E80E00F0C571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15181DB425E6E80E00F0C571 /* ViewController.swift */; };
+		15181DB825E6E80E00F0C571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15181DB625E6E80E00F0C571 /* Main.storyboard */; };
+		15181DBA25E6E81100F0C571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15181DB925E6E81100F0C571 /* Assets.xcassets */; };
+		15181DBD25E6E81100F0C571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15181DBB25E6E81100F0C571 /* LaunchScreen.storyboard */; };
+		15181DD325E6E84000F0C571 /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15181DC925E6E83F00F0C571 /* EntryCell.swift */; };
+		15181DD425E6E84000F0C571 /* SchmoozeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15181DCA25E6E83F00F0C571 /* SchmoozeViewController.swift */; };
+		15181DD525E6E84000F0C571 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15181DCC25E6E84000F0C571 /* Tracker.swift */; };
+		15181DD625E6E84000F0C571 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15181DCD25E6E84000F0C571 /* Observable.swift */; };
+		15181DD725E6E84000F0C571 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15181DCF25E6E84000F0C571 /* Response.swift */; };
+		15181DD825E6E84000F0C571 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15181DD025E6E84000F0C571 /* Request.swift */; };
+		15181DD925E6E84000F0C571 /* SchmoozeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15181DD225E6E84000F0C571 /* SchmoozeSession.swift */; };
+		15181DDD25E6E89000F0C571 /* Presentables in Frameworks */ = {isa = PBXBuildFile; productRef = 15181DDC25E6E89000F0C571 /* Presentables */; };
+		15181DE125E6E8D800F0C571 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 15181DE025E6E8D800F0C571 /* SnapKit */; };
+		15567BDC25E70C5700C6C035 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15567BDB25E70C5700C6C035 /* UIColor+Hex.swift */; };
+		15567BDF25E710A000C6C035 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15567BDE25E710A000C6C035 /* DetailViewController.swift */; };
+		15567BE225E7231400C6C035 /* Dictionary+Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15567BE125E7231400C6C035 /* Dictionary+Headers.swift */; };
+		1571046425E7A3150000AF91 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571046325E7A3150000AF91 /* Global.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15181DAD25E6E80E00F0C571 /* SchmoozeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchmoozeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15181DB025E6E80E00F0C571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15181DB225E6E80E00F0C571 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15181DB425E6E80E00F0C571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15181DB725E6E80E00F0C571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15181DB925E6E81100F0C571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15181DBC25E6E81100F0C571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15181DBE25E6E81100F0C571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15181DC925E6E83F00F0C571 /* EntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
+		15181DCA25E6E83F00F0C571 /* SchmoozeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchmoozeViewController.swift; sourceTree = "<group>"; };
+		15181DCC25E6E84000F0C571 /* Tracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		15181DCD25E6E84000F0C571 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		15181DCF25E6E84000F0C571 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		15181DD025E6E84000F0C571 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		15181DD225E6E84000F0C571 /* SchmoozeSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchmoozeSession.swift; sourceTree = "<group>"; };
+		15567BDB25E70C5700C6C035 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		15567BDE25E710A000C6C035 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		15567BE125E7231400C6C035 /* Dictionary+Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Headers.swift"; sourceTree = "<group>"; };
+		1571046325E7A3150000AF91 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15181DAA25E6E80E00F0C571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15181DDD25E6E89000F0C571 /* Presentables in Frameworks */,
+				15181DE125E6E8D800F0C571 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15181DA425E6E80E00F0C571 = {
+			isa = PBXGroup;
+			children = (
+				15181DAF25E6E80E00F0C571 /* SchmoozeApp */,
+				15181DAE25E6E80E00F0C571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15181DAE25E6E80E00F0C571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15181DAD25E6E80E00F0C571 /* SchmoozeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15181DAF25E6E80E00F0C571 /* SchmoozeApp */ = {
+			isa = PBXGroup;
+			children = (
+				15181DC525E6E83F00F0C571 /* Sources */,
+				15181DB025E6E80E00F0C571 /* AppDelegate.swift */,
+				15181DB225E6E80E00F0C571 /* SceneDelegate.swift */,
+				15181DB425E6E80E00F0C571 /* ViewController.swift */,
+				15181DB625E6E80E00F0C571 /* Main.storyboard */,
+				15181DB925E6E81100F0C571 /* Assets.xcassets */,
+				15181DBB25E6E81100F0C571 /* LaunchScreen.storyboard */,
+				15181DBE25E6E81100F0C571 /* Info.plist */,
+			);
+			path = SchmoozeApp;
+			sourceTree = "<group>";
+		};
+		15181DC525E6E83F00F0C571 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				15181DC625E6E83F00F0C571 /* Schmooze */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+		15181DC625E6E83F00F0C571 /* Schmooze */ = {
+			isa = PBXGroup;
+			children = (
+				15181DC725E6E83F00F0C571 /* Interface */,
+				15181DCB25E6E84000F0C571 /* Storage */,
+				15181DCE25E6E84000F0C571 /* Model */,
+				15181DD125E6E84000F0C571 /* Helpers */,
+			);
+			path = Schmooze;
+			sourceTree = "<group>";
+		};
+		15181DC725E6E83F00F0C571 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				15181DC825E6E83F00F0C571 /* Cells */,
+				15181DCA25E6E83F00F0C571 /* SchmoozeViewController.swift */,
+				15567BDE25E710A000C6C035 /* DetailViewController.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		15181DC825E6E83F00F0C571 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				15181DC925E6E83F00F0C571 /* EntryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		15181DCB25E6E84000F0C571 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				15181DCC25E6E84000F0C571 /* Tracker.swift */,
+				15181DCD25E6E84000F0C571 /* Observable.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		15181DCE25E6E84000F0C571 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15181DCF25E6E84000F0C571 /* Response.swift */,
+				15181DD025E6E84000F0C571 /* Request.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15181DD125E6E84000F0C571 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1571046325E7A3150000AF91 /* Global.swift */,
+				15181DD225E6E84000F0C571 /* SchmoozeSession.swift */,
+				15567BDB25E70C5700C6C035 /* UIColor+Hex.swift */,
+				15567BE125E7231400C6C035 /* Dictionary+Headers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15181DAC25E6E80E00F0C571 /* SchmoozeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15181DC125E6E81100F0C571 /* Build configuration list for PBXNativeTarget "SchmoozeApp" */;
+			buildPhases = (
+				15181DA925E6E80E00F0C571 /* Sources */,
+				15181DAA25E6E80E00F0C571 /* Frameworks */,
+				15181DAB25E6E80E00F0C571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchmoozeApp;
+			packageProductDependencies = (
+				15181DDC25E6E89000F0C571 /* Presentables */,
+				15181DE025E6E8D800F0C571 /* SnapKit */,
+			);
+			productName = SchmoozeApp;
+			productReference = 15181DAD25E6E80E00F0C571 /* SchmoozeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15181DA525E6E80E00F0C571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					15181DAC25E6E80E00F0C571 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 15181DA825E6E80E00F0C571 /* Build configuration list for PBXProject "SchmoozeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15181DA425E6E80E00F0C571;
+			packageReferences = (
+				15181DDB25E6E89000F0C571 /* XCRemoteSwiftPackageReference "Presentables" */,
+				15181DDF25E6E8D800F0C571 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 15181DAE25E6E80E00F0C571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15181DAC25E6E80E00F0C571 /* SchmoozeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15181DAB25E6E80E00F0C571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15181DBD25E6E81100F0C571 /* LaunchScreen.storyboard in Resources */,
+				15181DBA25E6E81100F0C571 /* Assets.xcassets in Resources */,
+				15181DB825E6E80E00F0C571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15181DA925E6E80E00F0C571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15567BE225E7231400C6C035 /* Dictionary+Headers.swift in Sources */,
+				15181DD725E6E84000F0C571 /* Response.swift in Sources */,
+				15181DD525E6E84000F0C571 /* Tracker.swift in Sources */,
+				15181DD325E6E84000F0C571 /* EntryCell.swift in Sources */,
+				15567BDF25E710A000C6C035 /* DetailViewController.swift in Sources */,
+				15181DD425E6E84000F0C571 /* SchmoozeViewController.swift in Sources */,
+				1571046425E7A3150000AF91 /* Global.swift in Sources */,
+				15181DD625E6E84000F0C571 /* Observable.swift in Sources */,
+				15567BDC25E70C5700C6C035 /* UIColor+Hex.swift in Sources */,
+				15181DB525E6E80E00F0C571 /* ViewController.swift in Sources */,
+				15181DD925E6E84000F0C571 /* SchmoozeSession.swift in Sources */,
+				15181DB125E6E80E00F0C571 /* AppDelegate.swift in Sources */,
+				15181DD825E6E84000F0C571 /* Request.swift in Sources */,
+				15181DB325E6E80E00F0C571 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15181DB625E6E80E00F0C571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15181DB725E6E80E00F0C571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15181DBB25E6E81100F0C571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15181DBC25E6E81100F0C571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15181DBF25E6E81100F0C571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15181DC025E6E81100F0C571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15181DC225E6E81100F0C571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				INFOPLIST_FILE = SchmoozeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.SchmoozeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15181DC325E6E81100F0C571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				INFOPLIST_FILE = SchmoozeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.SchmoozeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15181DA825E6E80E00F0C571 /* Build configuration list for PBXProject "SchmoozeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15181DBF25E6E81100F0C571 /* Debug */,
+				15181DC025E6E81100F0C571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15181DC125E6E81100F0C571 /* Build configuration list for PBXNativeTarget "SchmoozeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15181DC225E6E81100F0C571 /* Debug */,
+				15181DC325E6E81100F0C571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15181DDB25E6E89000F0C571 /* XCRemoteSwiftPackageReference "Presentables" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/manGoweb/Presentables";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		15181DDF25E6E8D800F0C571 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15181DDC25E6E89000F0C571 /* Presentables */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15181DDB25E6E89000F0C571 /* XCRemoteSwiftPackageReference "Presentables" */;
+			productName = Presentables;
+		};
+		15181DE025E6E8D800F0C571 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15181DDF25E6E8D800F0C571 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 15181DA525E6E80E00F0C571 /* Project object */;
+}
